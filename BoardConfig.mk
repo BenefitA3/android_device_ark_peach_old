@@ -23,3 +23,4 @@ TARGET_BOARD_INFO_FILE := device/ark/peach/board-info.txt
 
 # inherit from the proprietary version
 -include vendor/ark/peach/BoardConfigVendor.mk
+#USE_NINJA := false
