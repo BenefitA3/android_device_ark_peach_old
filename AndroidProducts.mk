@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_peach.mk
+    $(LOCAL_DIR)/aoscp_peach.mk
