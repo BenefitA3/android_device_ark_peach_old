@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,14 +13,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FORCE_32_BIT := true
-
--include device/ark/msm8916-common/BoardConfigCommon.mk
-
-include device/ark/peach/board/*.mk
-
-TARGET_BOARD_INFO_FILE := device/ark/peach/board-info.txt
-
-# inherit from the proprietary version
--include vendor/ark/peach/BoardConfigVendor.mk
-#USE_NINJA := false
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_peach.mk

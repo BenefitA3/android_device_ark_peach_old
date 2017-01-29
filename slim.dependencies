@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "kernel_ark_peach",
+    "target_path": "kernel/ark/peach",
+    "branch": "ng7.1"
+  }
+]

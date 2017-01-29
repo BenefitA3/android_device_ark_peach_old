@@ -1,1 +1,1 @@
-add_lunch_combo cm_peach-userdebug
+add_lunch_combo slim_peach-userdebug
